@@ -1,0 +1,148 @@
+*{
+	font-family: 'Rubik', sans-serif;
+}
+
+.fade-in-text {
+	 animation: fadeIn 5s;
+}
+
+h2{
+	font-weight: 900;
+}
+
+
+@keyframes fadeIn {
+  0% { opacity: 0; }
+  100% { opacity: 1; }
+}
+
+
+body { 
+	padding-top: 20px; 
+}
+
+nav{
+	font-weight: bold;
+	background-color: #0F0A0A !important;
+	flex-wrap: wrap;
+}
+
+@media only screen and (max-width: 480px) {
+  .imgme {
+    width: 60%;
+  }
+}
+
+.navbar-toggler-icon{
+  background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(255,205,181, 0.5)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E") !important; }
+
+.navbar-toggler {
+  border-color: #E1CDB5 !important;
+} 
+
+.navbar-brand{
+	color: #E1CDB5 !important;
+}
+
+.nav-link{
+	color: #E1CDB5 !important;
+}
+
+.navbar .navbar-nav .nav-link:hover{
+	color: #E1CDB5 !important;
+	background-color: #F0544F !important;
+	border-radius: 3px;
+}
+
+#home{
+	background-color: #2e2828;
+	color: #E1CDB5;
+}
+
+#aboutme{
+	background-color: #E1CDB5;
+	color: #0F0A0A;
+	border-width: 30%;
+	border-style: solid;
+	border-color: antiquewhite;
+}
+
+h1, h7{
+	text-decoration: underline;
+}
+
+#projects{
+	background-color: #686963 !important;
+	color: white !important;
+	border-width: 30%;
+	border-style: solid;
+	border-color: antiquewhite;
+}
+
+.imgproj{
+  opacity: 0.5;
+}
+
+.imgproj:hover {
+  opacity: 1.0;
+}
+
+#tools{
+	background-color: #E1CDB5;
+	color: #0F0A0A;
+	border-width: 30%;
+	border-style: solid;
+	border-color: antiquewhite;
+}
+
+hr{
+	background-color: #0F0A0A;
+	border:  none;
+}
+
+/*Contact Me*/
+
+#socialmedia{
+	font-weight: bold;
+	word-spacing: 10%;
+}
+
+#contacturl{
+	color: #2292A4;
+}
+
+#contacturl:hover{
+	background-color: #9E2B25;
+	border-radius: 3px;
+	color: white;
+}
+
+/*Forms*/
+
+.form1{
+	background-color: #686963 !important;
+}
+
+.fieldreq{
+	color: #FF989E !important;
+	text-align: left;
+}
+
+#contactme{
+  background-image: url('./images/groovepaper.png');
+  background-repeat: repeat;
+  background-size: auto;
+  border-width: 30%;
+	border-style: dotted;
+	border-color: #686963;
+}
+
+
+footer{
+	background-color: #686963 !important;
+	position: absolute;
+  width: 100%;
+  color: white;
+}
+
+
